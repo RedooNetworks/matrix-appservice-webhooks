@@ -3,10 +3,12 @@
     "ENV": "NODE_ENV"
   },
   "development": {
+    "dialect": "sqlite",
     "driver": "sqlite3",
     "filename": "db/development.db"
   },
   "production": {
+    "dialect": "sqlite",    
     "driver": "sqlite3",
     "filename": "db/production.db"
   }
