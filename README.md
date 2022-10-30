@@ -1,6 +1,4 @@
-# Planned obsolescence 
-
-Check out [matrix-hookshot](https://github.com/Half-Shot/matrix-hookshot) as a replacement for this archaic bridge :)
+Also check out [matrix-hookshot](https://github.com/Half-Shot/matrix-hookshot) as a more modern, but application specific replacement for this bridge.
 
 # matrix-appservice-webhooks
 
