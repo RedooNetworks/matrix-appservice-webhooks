@@ -1,3 +1,7 @@
+# Planned obsolescence 
+
+Check out [matrix-hookshot](https://github.com/Half-Shot/matrix-hookshot) as a replacement for this archaic bridge :)
+
 # matrix-appservice-webhooks
 
 ![example branch parameter](https://github.com/netresearch/matrix-appservice-webhooks/actions/workflows/publish.when-tagged.yml/badge.svg?branch=master)
