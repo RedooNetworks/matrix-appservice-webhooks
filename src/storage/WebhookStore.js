@@ -46,6 +46,7 @@ class WebhookStore {
                     host: dbConfigEnv.host || 'localhost',
                     port: dbConfigEnv.port || '5432',
                     dialect: dbConfigEnv.dialect || 'sqlite',
+                     dialectOptions: dbConfigEnv.dialectOptions || {},
                     storage: dbConfigEnv.filename,
                     pool: {
                         max: 5,
