@@ -45,6 +45,7 @@ class WebhookStore {
                 const opts = {
                     host: dbConfigEnv.host || 'localhost',
                     dialect: 'sqlite',
+                    dialectOptions: dbConfigEnv.dialectOptions || {},
                     storage: dbConfigEnv.filename,
                     pool: {
                         max: 5,
