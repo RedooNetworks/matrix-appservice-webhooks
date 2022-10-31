@@ -56,7 +56,7 @@ class WebhookStore {
                     logging: i => LogService.verbose("WebhookStore [SQL]", i)
                 };
 
-                this._orm = new Sequelize(dbConfigEnv.database || 'webhooks', dbConfigEnv.username, dbConfigEnv.password, opts);
+                this._orm = new Sequelize(dbConfigEnv.database || 'webhooks', dbConfigEnv.user, dbConfigEnv.password, opts);
                 this._bindModels();
                 resolve();
             }, err => {
