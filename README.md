@@ -78,13 +78,20 @@ To do so, adjust `database.json` in `config` folder and set the following produc
    // ...
 
   "production": {
-    "dialect": "postgres",
-    "driver": "postgres",
+    "driver": "pg",
     "host": "postgres-host",
     "port": "5432",
-    "username": "pg_username",
+    "user": "pg_username",
     "password": "pg_password",
-    "database": "pg_databasename"
+    "database": "pg_databasename",
+    "filename": "/data/production.db",
+    "ssl": {
+      "rejectUnauthorized": false
+    },
+    "dialect": "postgres",    
+    "dialectOptions": {
+      "ssl": true
+    }    
   }
   
   // ...
