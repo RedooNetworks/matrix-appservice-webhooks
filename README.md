@@ -69,7 +69,28 @@ Using the port specified during the install (`9000` by default), use `node index
 
 The bridge should start working shortly afterwards.
 
-### Docker
+## Use Postgres Database
+
+This appservice can be also run within a postgres database, instead of sqlite (default storage engine)  
+To do so, adjust `database.json` in `config` folder and set the following production information, related to your database:
+
+```json
+   // ...
+
+  "production": {
+    "dialect": "postgres",
+    "driver": "postgres",
+    "host": "postgres-host",
+    "port": "5432",
+    "username": "pg_username",
+    "password": "pg_password",
+    "database": "pg_databasename"
+  }
+  
+  // ...
+```
+
+## Docker
 
 A Docker image of the bridge is available to host the bridge yourself. The image can be built yourself with `docker build -t matrix-appservice-webhooks .` or you can use the image on docker.io:
 

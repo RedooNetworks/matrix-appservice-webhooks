@@ -1,6 +1,6 @@
 {
   "name": "matrix-appservice-webhooks",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Slack-compatible webhooks for Matrix",
   "main": "index.js",
   "repository": {
@@ -24,30 +24,31 @@
   "homepage": "https://github.com/redoonetworks/matrix-appservice-webhooks#readme",
   "dependencies": {
     "bluebird": "^3.5.2",
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.1",
     "chalk": "^2.4.1",
-    "cheerio": "^1.0.0-rc.10",
-    "db-migrate": "^0.11.3",
+    "cheerio": "^1.0.0-rc.12",
+    "db-migrate": "^0.11.13",
     "db-migrate-sqlite3": "^0.3.1",
+    "db-migrate-pg": "^1.2.2",
     "emoji-toolkit": "^6.6.0",
     "express": "^4.18.2",
     "express-interceptor": "^1.2.0",
     "lodash": "^4.17.13",
     "matrix-appservice-bridge": "^2.7.0",
     "matrix-js-snippets": "^0.2.8",
-    "mime": "^2.3.1",
-    "mkdirp": "^0.5.1",
+    "mime": "^2.6.0",
+    "mkdirp": "^0.5.6",
+    "moment": "^2.29.4",
     "node-emoji": "^1.11.0",
-    "moment": "^2.29.2",
     "parse-data-uri": "^0.2.0",
-    "pubsub-js": "^1.7.0",
+    "pubsub-js": "^1.9.4",
     "random-string": "^0.2.0",
     "request": "^2.88.0",
     "sequelize": "^4.40.0",
     "sqlite3": "^4.0.2",
     "striptags": "^3.2.0",
     "uuid": "^3.3.0",
-    "winston": "^2.4.4"
+    "winston": "^2.4.6"
   },
   "optionalDependencies": {}
 }

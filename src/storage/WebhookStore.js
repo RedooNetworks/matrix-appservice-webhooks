@@ -44,6 +44,7 @@ class WebhookStore {
 
                 const opts = {
                     host: dbConfigEnv.host || 'localhost',
+                    port: dbConfigEnv.port || '5432',
                     dialect: dbConfigEnv.dialect,
                     storage: dbConfigEnv.filename,
                     pool: {
